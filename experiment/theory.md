@@ -86,7 +86,7 @@ An interactive activation and competition network consists of a collection of pr
 
 
 
-
+<img src="../image/jetshark.gif" width="100px;" height = "100px">
 
  Figure 1: Figure illustrating the units and connections among those units in different pools. Though here only some units are shown, but actually we have 27 units in the 'Name' pool. Similarly there are 27 units in the 'Instance' pool, 2 in the 'Gang' pool and then 3 in rest of the other 4 pools.
 
