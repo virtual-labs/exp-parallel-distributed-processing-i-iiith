@@ -2,8 +2,7 @@ PDP Model Development
 
 This model is illustrated by the help of Jets and Sharks database described in [McClelland, 1981] and also given in the following table.
 
-|Name  |Gang  |Age|Education|Marital |Occupation|
-|      |      |   |         |Status  |          |
+|Name  |Gang  |Age|Education|Marital Status |Occupation|
 |------|------|---|---------|--------|----------|
 |Art   |Jets  |40s|Junior High   |Single  |Pusher    |
 |Al    |Jets  |30s|Junior High   |Married |Burglar   |
