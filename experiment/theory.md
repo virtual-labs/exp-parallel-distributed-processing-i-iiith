@@ -2,91 +2,43 @@ PDP Model Development
 
 This model is illustrated by the help of Jets and Sharks database described in [McClelland, 1981] and also given in the following table.
 
-+------+------+---+---------+--------+----------+
 |Name  |Gang  |Age|Education|Marital |Occupation|
 |      |      |   |         |Status  |          |
-+------+------+---+---------+--------+----------+
-|Art   |Jets  |40s|Junior   |Single  |Pusher    |
-|      |      |   |High     |        |          |
-+------+------+---+---------+--------+----------+
-|Al    |Jets  |30s|Junior   |Married |Burglar   |
-|      |      |   |High     |        |          |
-+------+------+---+---------+--------+----------+
+|------|------|---|---------|--------|----------|
+|Art   |Jets  |40s|Junior High   |Single  |Pusher    |
+|Al    |Jets  |30s|Junior High   |Married |Burglar   |
 |Sam   |Jets  |20s|College  |Single  |Bookie    |
-+------+------+---+---------+--------+----------+
-|Clyde |Jets  |40s|Junior   |Single  |Bookie    |
-|      |      |   |High     |        |          |
-+------+------+---+---------+--------+----------+
-|Mike  |Jets  |30s|Junior   |Single  |Bookie    |
-|      |      |   |High     |        |          |
-+------+------+---+---------+--------+----------+
-|Jim   |Jets  |20s|Junior   |Divorced|Burglar   |
-|      |      |   |High     |        |          |
-+------+------+---+---------+--------+----------+
-|Greg  |Jets  |20s|High     |Married |Pusher    |
-|      |      |   |School   |        |          |
-+------+------+---+---------+--------+----------+
-|John  |Jets  |20s|Junior   |Married |Burglar   |
-|      |      |   |High     |        |          |
-+------+------+---+---------+--------+----------+
-|Doug  |Jets  |30s|High     |Single  |Bookie    |
-|      |      |   |School   |        |          |
-+------+------+---+---------+--------+----------+
-|Lance |Jets  |20s|Junior   |Married |Burglar   |
-|      |      |   |High     |        |          |
-+------+------+---+---------+--------+----------+
-|George|Jets  |20s|Junior   |Divorced|Burglar   |
-|      |      |   |High     |        |          |
-+------+------+---+---------+--------+----------+
-|Pete  |Jets  |20s|High     |Single  |Bookie    |
-|      |      |   |School   |        |          |
-+------+------+---+---------+--------+----------+
-|Fred  |Jets  |20s|High     |Single  |Pusher    |
-|      |      |   |School   |        |          |
-+------+------+---+---------+--------+----------+
+|Clyde |Jets  |40s|Junior High   |Single  |Bookie    |
+|Mike  |Jets  |30s|Junior High   |Single  |Bookie    |
+|Jim   |Jets  |20s|Junior High   |Divorced|Burglar   |
+|Greg  |Jets  |20s|High School     |Married |Pusher    |
+|John  |Jets  |20s|Junior High   |Married |Burglar   |
+|Doug  |Jets  |30s|High School    |Single  |Bookie    |
+|Lance |Jets  |20s|Junior High   |Married |Burglar   |
+|George|Jets  |20s|Junior High   |Divorced|Burglar   |
+|Pete  |Jets  |20s|High School     |Single  |Bookie    |
+|Fred  |Jets  |20s|High School     |Single  |Pusher    |
 |Gene  |Jets  |20s|College  |Single  |Pusher    |
-+------+------+---+---------+--------+----------+
-|Ralph |Jets  |30s|Junior   |Single  |Pusher    |
-|      |      |   |High     |        |          |
-+------+------+---+---------+--------+----------+
+|Ralph |Jets  |30s|Junior High  |Single  |Pusher    |
 |Phil  |Sharks|30s|College  |Married |Pusher    |
-+------+------+---+---------+--------+----------+
-|Ike   |Sharks|30s|Junior   |Single  |Bookie    |
-|      |      |   |High     |        |          |
-+------+------+---+---------+--------+----------+
-|Nick  |Sharks|30s|High     |Single  |Pusher    |
-|      |      |   |School   |        |          |
-+------+------+---+---------+--------+----------+
+|Ike   |Sharks|30s|Junior High   |Single  |Bookie    |
+|Nick  |Sharks|30s|High School     |Single  |Pusher    |
 |Don   |Sharks|30s|College  |Married |Burglar   |
-+------+------+---+---------+--------+----------+
 |Ned   |Sharks|30s|College  |Married |Bookie    |
-+------+------+---+---------+--------+----------+
-|karl  |Sharks|40s|High     |Married |Bookie    |
-|      |      |   |School   |        |          |
-+------+------+---+---------+--------+----------+
-|Ken   |Sharks|20s|High     |Single  |Burglar   |
-|      |      |   |School   |        |          |
-+------+------+---+---------+--------+----------+
-|Earl  |Sharks|40s|High     |Married |Burglar   |
-|      |      |   |School   |        |          |
-+------+------+---+---------+--------+----------+
-|Rick  |Sharks|30s|High     |Divorced|Burglar   |
-|      |      |   |School   |        |          |
-+------+------+---+---------+--------+----------+
+|karl  |Sharks|40s|High School    |Married |Bookie    |
+|Ken   |Sharks|20s|High School     |Single  |Burglar   |
+|Earl  |Sharks|40s|High School    |Married |Burglar   |
+|Rick  |Sharks|30s|High School     |Divorced|Burglar   |
 |Ol    |Sharks|30s|College  |Married |Pusher    |
-+------+------+---+---------+--------+----------+
-|Neal  |Sharks|30s|High     |Single  |Bookie    |
-|      |      |   |School   |        |          |
-+------+------+---+---------+--------+----------+
-|Dave  |Sharks|30s|High     |Divorced|Pusher    |
-|      |      |   |School   |        |          |
-+------+------+---+---------+--------+----------+
+|Neal  |Sharks|30s|High School     |Single  |Bookie    |
+|Dave  |Sharks|30s|High School     |Divorced|Pusher    |
+
 
 An interactive activation and competition network consists of a collection of processing units organized into some number of competitive pools. There are excitatory connections among units in different pools and inhibitory connections among units within the same pool. The excitatory connections between pools are generally bidirectional, thereby making the processing interactive in the sense that processing in each pool both influences and is influenced by processing in other pools. Within a pool, the inhibitory connections are usually assumed to run from each unit in the pool to every other unit in the pool. This implements a kind of competition among the units such that the unit or units in the pool that receive the strongest activation tend to drive down the activation of the other units. The information about such a data, if stored in a computer memory, can be accessed by name or by any other set of items which can serve as a key to a particular set of information. But this requires the method of access to be pre-programmed in the system. Moreover, certain characteristics of the data like the distribution of persons in different age groups or the 'common' characteristics among some persons, etc, can be obtained only by programming explicitly to derive the information embedded in the data. In other words, any information in the data has to be sought explicitly. On the other hand human memory stores the information in the data in terms of patterns, and these patterns are useful to recall information even with partial clues. These features of the human memory can be demonstrated through representation in the form of a Parallel and Distributed Processing model, as shown in the figure below.
 
 
 
-<img src="../image/jetshark.gif" width="100px;" height = "100px">
+<img src="images/jetshark.gif">
 
  Figure 1: Figure illustrating the units and connections among those units in different pools. Though here only some units are shown, but actually we have 27 units in the 'Name' pool. Similarly there are 27 units in the 'Instance' pool, 2 in the 'Gang' pool and then 3 in rest of the other 4 pools.
 
