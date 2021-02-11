@@ -89,16 +89,22 @@ Due to change in the value of the output of this unit, the model goes to a diffe
 For each set of external inputs, the model reaches a stable state eventually. From the stable state the stored data can be read out. For example, if we want the data about 'Ralph', the output (state) of the 'Ralph' unit in the 'Name' pool is set to maximum. Starting with some initial values of state on other units, the network states are computed for several cycles, until an equilibrium state is reached. At equilibrium, there will be one unit in each pool having large positive value. Those units correspond to the data that belongs to 'Ralph'.
 
 In the experiment here, in the initial state we can see, as illustrated by the following figure, how 'Ralph' unit is connected in an inhibitory sense (illustrated by red connections) with the rest of the members of the 'Name' pool. Also it is connected by an excitatory connection to the unit 'Ralph' in the 'instance' pool (illustrated by a green connection).
-
+\
+\
 <img src="images/Ralph_Init.png">
-
+\
+\
 Now, when an external input is applied by changing the state of the 'Ralph' unit (as by clicking the mouse over 'Ralph' node in the 'Name' pool) we see that all the nodes settle down to a stable state after sometime.
-
+\
+\
 <img src="images/Ralph_ExtInp1.png">
-
+\
+\
 Finally when we try to read out the data related to 'Ralph' unit from the model, we just need to visit every pool and find out which node has the highest positive value. That data belongs to 'Ralph' unit.
-
+\
+\
 <img src="images/Ralph_Result.png">
-
+\
+\
 For this experiment, we can provide external bias and hence activation to units of all the pools except the instance pool. The instance pool, which is also known as the hidden pool is not accessible to the end user. Yet we can see the connections within and outside this pool by moving mouse pointer to respective units. 
 
