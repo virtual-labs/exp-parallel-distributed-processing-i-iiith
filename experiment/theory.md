@@ -1,4 +1,4 @@
-### PDP Model Development
+#### PDP Model Development
 
 This model is illustrated by the help of Jets and Sharks database described in [McClelland, 1981] and also given in the following table.
 
