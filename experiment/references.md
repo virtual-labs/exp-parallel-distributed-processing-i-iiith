@@ -1,1 +1,4 @@
-### Link your references in here
+- B. Yegnanarayana, Artificial Neural Networks, New Delhi, India : Prentice-Hall of India, pg. 299, 1999.
+- J.L. McClelland, "Retrieving general and specific information from stored knowledge of specifics", in Proceedings of the Third Annual Meeting of the Cognitive Science Society, pp. 170-172, 1981.
+- J.L. McClelland and D.E. Rumelhart, Explorations in Parallel Distributed Processing, Cambridge MA: MIT Press, 1988.
+- D.E. Rumelhart, G.E. Hinton, and R.J. Williams, "Learning internal representations by error propagation", in Parallel Distributed Processing: Explorations in the Microstructure of Cognition, vol. 1 (D.E. Rumelhart, J.L. McClelland, and the PDP Research Group, eds.), Cambridge, MA: MIT Press, pp. 318-362, 1986a.
