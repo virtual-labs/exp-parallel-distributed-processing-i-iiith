@@ -1,4 +1,4 @@
-### PDP Model Development
+#### PDP Model Development
 
 This model is illustrated by the help of Jets and Sharks database described in [McClelland, 1981] and also given in the following table.
 
@@ -43,7 +43,7 @@ An interactive activation and competition network consists of a collection of pr
 
 In the figure, the units are organized into different pools, such as 'Name' pool, 'Age' pool, etc. The number of units in each pool corresponds to different possibilities in that category, as for example, 27 units in the 'Name' pool and 3 units in the 'Age' pool, etc. There are as many pools as there are categories (6 in this case), plus one additional pool called the 'Instance' pool.
 
-### PDP Model Description
+#### PDP Model Description
 
 Units within each pool are connected in an inhibitory manner, i.e., the output of each unit is fed with a negative weight to all other units in the same pool. The units in each pool are connected to the corresponding units in the instance pool in an excitatory manner, i.e., the connection weights are positive. For example, here, the 'Ralph' unit in the 'Name' pool, 'Jets' unit in the 'Gang' pool, 'in 30s' unit in the 'Age' pool, 'JH' unit in the 'Education' pool, 'pusher' unit in the 'Occupation' pool and 'Unmarried' unit in the 'Marital status' pool are all connected to the 'Ralph' unit in the 'instance' pool with positive weights. The units in the 'instance' pool are called "hidden" units, since by design, they are not accessible for any input or output. The units in all other pools are "visible" units. Only 5 of 27 units are shown in the 'Name' pool and the 'instance' pool for illustration. Also, the inhibitory connections within each pool are not shown in the figure.
 
@@ -51,7 +51,7 @@ There are a total of 68 units in the model. Each unit computes a weighted sum of
 
 For each set of external inputs, the model reaches a stable state eventually. From the stable state the stored data can be read out. For example, if we want the data about 'Ralph', the output (state) of the 'Ralph' unit in the 'Name' pool is set to maximum. Starting with some initial values of state on other units, the network states are computed for several cycles, until an equilibrium state is reached. At equilibrium, there will be one unit in each pool having large positive value. Those units correspond to the data that belongs to 'Ralph'.
 
-### Features Demonstrated By The Model
+#### Features Demonstrated By The Model
 
 The model demonstrates several features of the functioning of the biological neural network in human memory. Some of the features are: (a) Retrieving an individual's data from his name, (b) retrieval from a partial description, (c) graceful degradation, (d) default assignment, and (e) spontaneous generalization for novel inputs. The most important point is that the model stores the patterns embedded in the given data. Therefore from the model, one could get even such information for which the model was not explicitly designed. For example, in the feature of default assignment, the model gives possible good guess about missing information, even though we do not know certain things about an individual. It evaluates the relative strengths of the attributes from the given data in a complex manner, which is difficult to describe explicitly. Thus, this model clearly brings out the distinction between computer memory and human memory for storage and retrieval of information. The model also brings out the features of content-addressable memories and associative memories for information retrieval. Note the distributed nature of the memory in this model, in the sense that, the information is distributed in the weights throughout the network. Also note the parallel and distributed nature of the activation dynamics when the model is realized in hardware, and also when it is allowed to relax naturally changing from one state to another until an equilibrium state is reached from the given initial state and external input. Spontaneous generalization is the ability to provide a generalized picture of what is common to the memories that match the cues which are too vague to match a particular memory. If weights between i'th and j'th components is +ve,
 q = weight * activation
@@ -78,5 +78,3 @@ activation += delta inhibition;
 g Delta = g Delta + absolute(delta inhibiton);
 
 For more information and help regarding IAC, [click here](https://web.stanford.edu/group/pdplab/pdphandbook/handbookch3.html) 
-
-
