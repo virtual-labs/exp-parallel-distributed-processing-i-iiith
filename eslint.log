@@ -1,0 +1,13 @@
+
+/home/runner/work/exp-parallel-distributed-processing-i-iiith/exp-parallel-distributed-processing-i-iiith/experiment/simulation/js/main.js
+  379:10  warning  'mouseReleased' is defined but never used        no-unused-vars
+  399:10  warning  'keyReleased' is defined but never used          no-unused-vars
+  409:10  warning  'resetOriginalValues' is defined but never used  no-unused-vars
+  431:10  warning  'setNewValues' is defined but never used         no-unused-vars
+  469:10  warning  'setup' is defined but never used                no-unused-vars
+  470:21  warning  'createCanvas' is not defined                    no-undef
+  483:10  warning  'draw' is defined but never used                 no-unused-vars
+  509:39  warning  Empty block statement                            no-empty
+
+✖ 8 problems (0 errors, 8 warnings)
+

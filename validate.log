@@ -1,0 +1,11 @@
+{
+  _: [],
+  f: [
+    '/home/runner/work/exp-parallel-distributed-processing-i-iiith/exp-parallel-distributed-processing-i-iiith/experiment-descriptor.json'
+  ],
+  files: [
+    '/home/runner/work/exp-parallel-distributed-processing-i-iiith/exp-parallel-distributed-processing-i-iiith/experiment-descriptor.json'
+  ],
+  '$0': 'validate'
+}
+Validated true
