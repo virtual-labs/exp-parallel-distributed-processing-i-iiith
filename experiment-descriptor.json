@@ -13,7 +13,7 @@
       "unit-type": "task",
       "content-type": "text"
     },
-   
+
     {
       "target": "procedure.html",
       "source": "procedure.md",
@@ -28,7 +28,7 @@
       "unit-type": "task",
       "content-type": "simulation"
     },
-	{
+    {
       "target": "observations.html",
       "source": "observations.md",
       "label": "Observations",
@@ -42,7 +42,7 @@
       "unit-type": "task",
       "content-type": "text"
     },
-    
+
     {
       "target": "references.html",
       "source": "references.md",
